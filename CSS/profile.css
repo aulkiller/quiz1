@@ -1,0 +1,56 @@
+.profil{
+    margin-top: 1%;
+    margin-left: 20%;
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.profil img{
+    background-color: #a18a05;
+    padding: 15px;
+    padding-bottom: 25px;
+    width: 40%;
+}
+
+.profil .teksprofil{
+    text-align: left;
+    padding: 5%;
+    background-color: pink;
+    width: 40%;
+    position: absolute;
+    top: 77%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
+
+.profil h1{
+    font-size: 3vw;
+    font-weight: normal;
+}
+
+.profil h3{
+    font-size: 2vw;
+    color: #b87c55;
+    margin-top: 30px;
+}
+
+.profil h5{
+    font-size: 1.2vw;
+    margin-top: 30px;
+}
+
+.wadah{
+    padding: 12% 10%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.wadah div {
+    padding: 0 8%;
+    border-right: 2px solid #b87c55;
+}
+
+.wadah div:last-child {
+    border: none; /* remove border ? */
+}

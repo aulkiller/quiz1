@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+.Title{
+    padding: 15% 10%;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/1502064183812-sunda-l.jpg);
+    height: 100%; 
+    color: white;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Title h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 6vw;
+}
+
+.wadah{
+    padding: 10% 10%;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
