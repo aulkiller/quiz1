@@ -1,0 +1,38 @@
+.Title{
+    padding: 18% 10%;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/images/trueBG.jpg);
+    height: 100%; 
+    color: white;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Title h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 6vw;
+}
+
+.Title h2{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3vw;
+}
+
+.wadah{
+    padding: 10% 10%;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.wadah h4{
+    font-size: 2vw;
+}
+
+.wadah p{
+    font-size: 1.5vw;
+}
