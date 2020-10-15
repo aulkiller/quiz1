@@ -70,6 +70,12 @@
     color: inherit;
 }
 
+.wadah a:hover{
+    transition: all 0.3s ease;
+    opacity: 0.7;
+    color: #8f6244;
+}
+
 #Spasia, .part2 h5{
     margin-top: 10%;
 }
