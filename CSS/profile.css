@@ -7,16 +7,16 @@
 }
 
 .profil img{
-    background-color: #a18a05;
-    padding: 15px;
-    padding-bottom: 25px;
+    background-color: #EDD5C2;
+    /* background-color: #ffffff; */
+    padding: 10px 10px 30px 10px;
     width: 40%;
 }
 
 .profil .teksprofil{
     text-align: left;
     padding: 5%;
-    background-color: pink;
+    background-color: white;
     width: 40%;
     position: absolute;
     top: 77%;
@@ -41,16 +41,48 @@
 }
 
 .wadah{
-    padding: 12% 10%;
+    padding: 12% 10% 5% 10%;
     justify-content: space-around;
     display: flex;
 }
 
 .wadah div {
+    flex: 1;
     padding: 0 8%;
-    border-right: 2px solid #b87c55;
+    border-right: 2px solid #EDD5C2;
 }
 
 .wadah div:last-child {
     border: none; /* remove border ? */
+}
+
+.wadah h4{
+    font-size: 1.8vw;
+    margin-bottom: 10%;
+}
+
+.wadah h5, .wadah li, #indika{
+    font-size: 1.1vw;
+}
+
+.wadah a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#Spasia, .part2 h5{
+    margin-top: 10%;
+}
+
+#Divida{
+    margin-top: 25%;
+}
+
+#indika{
+    color:#d89365;
+}
+
+
+.part2 h5{
+    color: #8f6244;
 }
