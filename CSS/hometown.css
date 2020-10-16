@@ -3,11 +3,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/bg.png);
 }
 
-.Title h1{
-    font-family: 'Amatic SC', cursive;
-    font-size: 6vw;
-}
-
 .wadah{
     padding: 10% 10%;
     text-align: center;

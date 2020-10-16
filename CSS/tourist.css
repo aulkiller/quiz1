@@ -3,16 +3,31 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/bg2.png);
 }
 
-.Title h1{
-    font-family: 'Amatic SC', cursive;
-    font-size: 6vw;
+.subtitle{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.subtitle h2{
+    font-size: 2vw;
 }
 
 .wadah{
-    padding: 10% 10%;
-    text-align: center;
-    justify-content: space-around;
+    padding: 2% 20%;
+    text-align: left;
+}
+
+.wadah .part{
     display: flex;
+    padding: 2%;
+}
+
+.details{
+    padding: 0 5%;
+}
+
+.wadah img{
+    width: 40%;
 }
 
 .wadah h4{
@@ -20,5 +35,10 @@
 }
 
 .wadah p{
-    font-size: 1.5vw;
+    font-size: 1.4vw;
+}
+
+.wadah img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
 }
