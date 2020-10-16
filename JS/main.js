@@ -9,7 +9,7 @@ const navSlide = () => {
         nav.classList.toggle('nav-active');
         navbar.classList.toggle('nav-test');
 
-        //animasi persatuan
+        //animations
         navitems.forEach((items,index) => {
             if(items.style.animation){
                 items.style.animation = '';
@@ -21,19 +21,6 @@ const navSlide = () => {
 
 }
 
-const SwitchIMG = () => {
-    const Event = document.querySelector('.Event');
-    const Title = document.querySelector('.Title');
-    const head = document.querySelector('header');
-
-    //toggle
-    Event.addEventListener('click', () =>{
-        Title.classList.toggle('Tittle-active');
-        head.classList.toggle('head-active');       
-    });
-
-}
-
 navSlide();
-SwitchIMG();
+
 

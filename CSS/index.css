@@ -120,9 +120,6 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/trueBG.jpg);
     height: 100%; 
     color: white;
-
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
@@ -158,13 +155,15 @@ header {
     color: #fcde7c;
 }
 
-.Tittle-active{
+/*Alternative Method from JS*/
+
+/* .Tittle-active{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/fakeBG.jpg);
 }
 
 .head-active{
     background-image: linear-gradient(rgba(255, 255, 255, 0.690), rgba(255, 255, 255, 0.690)),url(../images/fakeBG.jpg);
-}
+} */
 
 
 
@@ -197,7 +196,7 @@ footer {
 
     .nav-items {
         position: absolute;
-        height: 60%;
+        height: 40%;
         top: 0px;
         left: 0px;
         background-color: white;

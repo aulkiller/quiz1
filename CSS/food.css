@@ -38,6 +38,10 @@
     width: 70%;
 }
 
+.wadah div:hover{
+    transform: scale(1.2);
+}
+
 #nyil{
     width: 75%;
 }
