@@ -13,7 +13,7 @@
 }
 
 .wadah{
-    padding: 2% 20%;
+    padding: 5% 15%;
     text-align: left;
 }
 
@@ -35,7 +35,27 @@
 }
 
 .wadah p{
-    font-size: 1.4vw;
+    font-size: 1.2vw;
+    padding-bottom: 3%;
+}
+
+.details a{
+    font-size: 1.1vw;
+}
+
+.details .btn{
+    display: inline-block;
+    color: #0094FF; 
+    padding: 1% 5%;
+    background-color: #ffffff;
+    border-color: #0094FF;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.details .btn:hover{
+    color: #ffffff;
+    background-color: #0094FF;
 }
 
 .wadah img:hover{
