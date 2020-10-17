@@ -10,6 +10,14 @@
     flex-wrap: wrap;
 }
 
+.wadah h4{
+    font-size: 2vw;
+}
+
+.wadah p{
+    font-size: 1.2vw;
+}
+
 .part{
     margin: 3%;
     background-color: transparent;
