@@ -179,22 +179,24 @@ header {
 
 /* FOOTER SECTION */
 footer {
-    padding: 80px 30px 50px 30px;
+    padding: 5.2% 20% 3.2% 20%; 
     color: white;
     background-color: rgb(37, 37, 37);
     text-align: center;
 }
 
 .photoright{
-    width: 55px;
+    width: 6%;
 }
 
 .copyright{
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 
+@media (max-width: 768px){
 
+}
 
 /*Menu Buton*/
 @media (max-width: 942px){
