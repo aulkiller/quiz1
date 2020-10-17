@@ -1,15 +1,7 @@
+/*CONTENT*/
 .Title{
     padding: 15% 10%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/bg2.png);
-}
-
-.subtitle{
-    padding-top: 5%;
-    text-align: center;
-}
-
-.subtitle h2{
-    font-size: 2vw;
 }
 
 .wadah{

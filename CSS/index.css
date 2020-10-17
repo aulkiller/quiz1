@@ -146,6 +146,15 @@ header {
     color: white;
 }
 
+.subtitle{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.subtitle h2{
+    font-size: 2vw;
+}
+
 /*Magic Button*/
 .Title .Event{
     cursor:pointer;

@@ -1,15 +1,7 @@
+/*CONTENT*/
 .Title{
     padding: 15% 10%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/1502064183812-sunda-l.jpg);
-}
-
-.subtitle{
-    padding-top: 5%;
-    text-align: center;
-}
-
-.subtitle h2{
-    font-size: 2vw;
 }
 
 .wadah{
@@ -45,8 +37,4 @@
 
 #nyil{
     width: 75%;
-}
-
-#Spasia{
-    margin-top: 12%;
 }

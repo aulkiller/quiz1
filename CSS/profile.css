@@ -1,3 +1,4 @@
+/*CONTENT*/
 .profil{
     margin-top: 1%;
     margin-left: 20%;
@@ -52,7 +53,7 @@
 }
 
 .wadah div:last-child {
-    border: none; /* remove border ? */
+    border: none;
 }
 
 .wadah h4{
