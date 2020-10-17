@@ -1,40 +1,40 @@
 /*CONTENT*/
-.Title{
+.Title {
     padding: 15% 10%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/1502064183812-sunda-l.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1502064183812-sunda-l.jpg);
 }
 
-.wadah{
+.wadah {
     padding: 5% 10%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
 
-.wadah div{
+.wadah div {
     flex: 0 50%;
     padding-bottom: 3%;
 }
 
-.wadah h4{
+.wadah h4 {
     font-size: 2vw;
 }
 
-.wadah p{
+.wadah p {
     font-size: 1.1vw;
     padding-left: 20%;
     padding-right: 20%;
 }
 
-.wadah img{
+.wadah img {
     width: 70%;
 }
 
-.wadah div:hover{
+.wadah div:hover {
     transform: scale(1.2);
     transition: all 0.5s ease;
 }
 
-#nyil{
+#nyil {
     width: 75%;
 }

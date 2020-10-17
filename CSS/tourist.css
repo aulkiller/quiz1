@@ -1,43 +1,43 @@
 /*CONTENT*/
-.Title{
+.Title {
     padding: 15% 10%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../images/bg2.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/bg2.png);
 }
 
-.wadah{
+.wadah {
     padding: 5% 15%;
     text-align: left;
 }
 
-.wadah .part{
+.wadah .part {
     display: flex;
     padding: 2%;
 }
 
-.details{
+.details {
     padding: 0 5%;
 }
 
-.wadah img{
+.wadah img {
     width: 40%;
 }
 
-.wadah h4{
+.wadah h4 {
     font-size: 2vw;
 }
 
-.wadah p{
+.wadah p {
     font-size: 1.2vw;
     padding-bottom: 3%;
 }
 
-.details a{
+.details a {
     font-size: 1.1vw;
 }
 
-.details .btn{
+.details .btn {
     display: inline-block;
-    color: #0094FF; 
+    color: #0094FF;
     padding: 1% 5%;
     background-color: #ffffff;
     border-color: #0094FF;
@@ -45,12 +45,12 @@
     transition: all 0.3s ease;
 }
 
-.details .btn:hover{
+.details .btn:hover {
     color: #ffffff;
     background-color: #0094FF;
 }
 
-.wadah img:hover{
+.wadah img:hover {
     transform: scale(1.2);
     transition: all 0.5s ease;
 }

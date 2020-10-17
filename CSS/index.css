@@ -1,27 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-*{
+
+* {
     box-sizing: border-box;
 }
 
 /*Fonttype*/
 
-body{
-    font-family: 'Montserrat',sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: bold; 
+    font-weight: bold;
     margin: 0;
 }
 
 h2 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -37,10 +38,10 @@ header {
     display: flex;
     align-items: center;
     padding: 0 10%;
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, .2);
 }
 
-.logo{
+.logo {
     display: flex;
     z-index: 2;
     margin-right: auto;
@@ -54,31 +55,31 @@ header {
     opacity: 0.7;
 }
 
-.nav-items{
+.nav-items {
     margin-top: 15px;
     list-style: none;
 }
- 
-.nav-items li{
+
+.nav-items li {
     display: inline-block;
-    padding:  0px 15px;
+    padding: 0px 15px;
 }
 
-.nav-items a{
+.nav-items a {
     font-family: 'Open Sans';
     color: #6A6A6A;
     text-decoration: none;
 }
 
-.nav-items a:hover{
+.nav-items a:hover {
     transition: all 0.3s ease;
     opacity: 0.7;
     color: #0094FF;
 }
 
-.nav-items .btn{
+.nav-items .btn {
     display: inline-block;
-    color: #ffffff; 
+    color: #ffffff;
     margin-left: 30px;
     padding: 10px 30px;
     background-color: #0094FF;
@@ -87,20 +88,20 @@ header {
     transition: all 0.3s ease;
 }
 
-.nav-items .btn:hover{
+.nav-items .btn:hover {
     color: #ffffff;
 }
 
 /* menubutton */
-.menu-btn{
-    cursor:pointer;
+.menu-btn {
+    cursor: pointer;
     display: none;
     position: relative;
     z-index: 2;
     padding: 0px 10%;
 }
 
-.menu-btn div{
+.menu-btn div {
     width: 25px;
     height: 3px;
     background-color: black;
@@ -113,25 +114,25 @@ header {
 }
 
 /* CONTENT SECTION */
-.Title{
+.Title {
     padding: 17% 10%;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/trueBG.jpg);
-    height: 100%; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/trueBG.jpg);
+    height: 100%;
     color: white;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
 }
 
-.Title h1{
+.Title h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 6vw;
 }
 
-.Title h2{
+.Title h2 {
     font-family: 'Amatic SC', cursive;
-    
+
     font-size: 3vw;
     backdrop-filter: blur(5px);
     border: none;
@@ -140,26 +141,26 @@ header {
     margin: 0px 25%;
 }
 
-.Title a{
+.Title a {
     text-decoration: none;
     color: white;
 }
 
-.subtitle{
+.subtitle {
     padding-top: 5%;
     text-align: center;
 }
 
-.subtitle h2{
+.subtitle h2 {
     font-size: 2vw;
 }
 
 /*Magic Button*/
-.Title .Event{
-    cursor:pointer;
+.Title .Event {
+    cursor: pointer;
 }
 
-.Title .Event:hover{
+.Title .Event:hover {
     color: #fcde7c;
 }
 
@@ -178,25 +179,25 @@ header {
 
 /* FOOTER SECTION */
 footer {
-    padding: 5.2% 20% 3.2% 20%; 
+    padding: 5.2% 20% 3.2% 20%;
     color: white;
     background-color: rgb(37, 37, 37);
     text-align: center;
 }
 
-.photoright{
+.photoright {
     width: 6%;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     font-size: 1.2vw;
 }
 
 /*Menu Buton*/
-@media (max-width: 942px){
+@media (max-width: 942px) {
 
-    .menu-btn{
+    .menu-btn {
         display: block;
     }
 
@@ -221,14 +222,14 @@ footer {
     }
 
     /* fix gap menubar */
-    .nav-items .btn{
+    .nav-items .btn {
         margin: 0;
     }
 
-    .nav-items a{
+    .nav-items a {
         color: black;
     }
-    
+
 
     .nav-items li {
         opacity: 0;
@@ -237,7 +238,7 @@ footer {
     }
 
     .nav-items li:hover {
-       opacity: 0.7;
+        opacity: 0.7;
     }
 
     .nav-items li:nth-last-child(1) {
@@ -246,21 +247,19 @@ footer {
 
     .nav-active {
         transform: translateY(0%);
-        box-shadow: 0 0 0 1000vmax rgba(0,0,0,.3);
+        box-shadow: 0 0 0 1000vmax rgba(0, 0, 0, .3);
     }
-    
+
 
     @keyframes navitemsFade {
-        from{
+        from {
             opacity: 0;
             transform: translateY(5px);
         }
-        to{
+
+        to {
             opacity: 1;
             transform: translateY(0px);
         }
     }
 }
-
-
-
