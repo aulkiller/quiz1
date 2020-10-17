@@ -6,15 +6,20 @@
 
 .wadah{
     display: flex;
-    padding: 2% 10% 5% 10%;
+    padding: 2% 10% 5% 12%;
     flex-wrap: wrap;
 }
 
 .part{
     margin: 3%;
     background-color: transparent;
-    width: 312px;
-    height: 312px;
+    width: 27%;
+}
+
+.part:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
 }
 
 .parte{
